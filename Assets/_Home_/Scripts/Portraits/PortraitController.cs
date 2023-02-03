@@ -6,10 +6,37 @@ public class PortraitController : MonoBehaviour
 {
     [SerializeField]
     private SpriteRenderer backgroundRenderer, bodyRenderer, eyesRenderer, noseRenderer, clothesRenderer, hairRenderer, mouthRenderer, complementRenderer, frameRenderer, coloredBorderRenderer;
-    //private CharacterData currentCharacter;
+    private PortraitData _currentPortrait;
+    public PortraitData currentPortrait
+    {
+        private get
+        {
+            return _currentPortrait;
+        }
+        set
+        {
+            if (value == null)
+            {
+                Debug.LogError("Null can't be a value for currentPortrait");
+                return;
+            }
 
-    //public void Render(CharacterData newCharacter)
-    //{
+            _currentPortrait = value;
+            Render();
+        }
+    }
 
-    //}
+    private void Render()
+    {
+        backgroundRenderer.sprite = currentPortrait.backgroundSprite;
+        bodyRenderer.sprite = currentPortrait.bodySprite;
+        eyesRenderer.sprite = currentPortrait.eyesSprite;
+        noseRenderer.sprite = currentPortrait.noseSprite;
+        clothesRenderer.sprite = currentPortrait.clothesSprite;
+        hairRenderer.sprite = currentPortrait.hairSprite;
+        mouthRenderer.sprite = currentPortrait.mouthSprite;
+        complementRenderer.sprite = currentPortrait.complementSprite;
+        frameRenderer.sprite = currentPortrait.frameSprite;
+        coloredBorderRenderer.sprite = currentPortrait.coloredBorderSprite;
+    }
 }
