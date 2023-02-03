@@ -39,4 +39,9 @@ public class PortraitController : MonoBehaviour
         frameRenderer.sprite = currentPortrait.frameSprite;
         coloredBorderRenderer.sprite = currentPortrait.coloredBorderSprite;
     }
+
+    public void SetColor(Color newColor)
+    {
+        coloredBorderRenderer.color = newColor;
+    }
 }
