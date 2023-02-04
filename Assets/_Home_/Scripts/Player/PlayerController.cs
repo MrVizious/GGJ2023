@@ -11,5 +11,5 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     Color leftColor, rightColor;
 
-    [SerializeField] private PortraitController portraitController;
+    [SerializeField] private PortraitGameController portraitController;
 }
