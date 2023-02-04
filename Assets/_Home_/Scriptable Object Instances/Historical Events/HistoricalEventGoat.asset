@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca097b200e18cb54185f8532a4cf0e8c, type: 3}
   m_Name: HistoricalEventGoat
   m_EditorClassIdentifier: 
-  eventName: 
-  minYear: 0
-  maxYear: 0
-  testYear: 0
+  eventName: Goat
+  minYear: 1500
+  maxYear: 1550
+  yearOfExecution: 1536

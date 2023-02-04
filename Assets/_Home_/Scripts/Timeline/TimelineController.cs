@@ -51,7 +51,6 @@ public class TimelineController : MonoBehaviour
     {
         foreach (var historicalEvent in historicalEventsMarkers.Keys)
         {
-            Debug.Log("Hola!");
             historicalEventsMarkers[historicalEvent].GetComponent<RectTransform>().localPosition =
              new Vector2(rTransform.rect.width / totalSizeInYears * (historicalEvent.yearOfExecution - currentYear), 0);
         }
