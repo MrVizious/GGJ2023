@@ -17,7 +17,7 @@ public abstract class HistoricalEvent : ScriptableObject
             yearOfExecution = (int)Random.Range(minYear, maxYear + 1);
     }
     public abstract void Execute();
-    private void OnEnable()
+    protected void OnEnable()
     {
         SetYearOfExecution();
     }
