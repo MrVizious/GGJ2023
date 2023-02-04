@@ -18,15 +18,15 @@ public class PlayerController : MonoBehaviour
     public void MoveLeftCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
-        Debug.Log(playerNumber + ": " + v);
-        leftCharacter?.move(v);
+        //Debug.Log(playerNumber + ": " + v);
+        leftCharacter?.Move(v);
     }
 
     public void MoveRightCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
         Debug.Log(playerNumber + ": " + v);
-        rightCharacter?.move(v);
+        rightCharacter?.Move(v);
     }
 
     public void ChangeLeftCharacterForward(InputAction.CallbackContext context)

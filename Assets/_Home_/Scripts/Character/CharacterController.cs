@@ -13,11 +13,11 @@ public class CharacterController : MonoBehaviour
     public float maxSpeed;
     [SerializeField] private float speed;
     private Vector2 latestMovementVector;
-    private Rigidbody2D characterRigyBody;
+    private Rigidbody2D rb;
 
     private void FixedUpdate()
     {
-        characterRigyBody.velocity = latestMovementVector * maxSpeed;
+        rb.velocity = latestMovementVector * maxSpeed;
     }
     private void Update()
     {
@@ -25,7 +25,7 @@ public class CharacterController : MonoBehaviour
     }
     private void Awake()
     {
-        characterRigyBody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -36,7 +36,7 @@ public class CharacterController : MonoBehaviour
 
 
 
-    public void move(Vector2 v)
+    public void Move(Vector2 v)
     {
         latestMovementVector = Vector2.ClampMagnitude(v.WithY(Mathf.Clamp(v.y, -1, 0)), 1);
     }
@@ -47,6 +47,7 @@ public class CharacterController : MonoBehaviour
         if (lifeLeft <= 0)
         {
             maxSpeed = 0;
+            Destroy(rb);
             Destroy(this);
             //TODO: Poner el marco en sepia.
         }
@@ -79,8 +80,22 @@ public class CharacterController : MonoBehaviour
         return max;
     }
 
-    public void breed()
+    private void OnCollisionEnter2D(Collision2D other)
     {
+        CharacterController otherCharacter = other.gameObject.GetComponent<CharacterController>();
+        if (otherCharacter == null)
+        {
+            return;
+        }
+        if (GetHashCode() > otherCharacter.GetHashCode())
+        {
+            Breed();
+        }
 
+    }
+
+    public void Breed()
+    {
+        Debug.Log("Breeding", gameObject);
     }
 }
