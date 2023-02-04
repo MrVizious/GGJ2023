@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 3485656757059963331}
   - component: {fileID: 8580024417838379345}
   m_Layer: 6
-  m_Name: Portrait
+  m_Name: PortraitGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
