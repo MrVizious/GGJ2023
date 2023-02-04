@@ -7,7 +7,7 @@ public abstract class HistoricalEvent : ScriptableObject
     [SerializeField] private string eventName;
     [SerializeField] public int minYear, maxYear;
     public int yearOfExecution = 0;
-    private void SetYearOfExecution(int year = -1)
+    public void SetYearOfExecution(int year = -1)
     {
         if (year != -1)
         {
