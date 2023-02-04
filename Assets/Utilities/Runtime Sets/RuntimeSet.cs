@@ -25,5 +25,15 @@ namespace RuntimeSets
         {
             Items.Clear();
         }
+
+        public T GetItemAt(int index)
+        {
+            if (Items.Count > 0)
+            {
+                return Items[index % Items.Count];
+            }
+            Debug.LogError("There are no elements in the RuntimeSet", this);
+            return default(T);
+        }
     }
 }

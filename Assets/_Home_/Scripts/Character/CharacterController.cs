@@ -16,6 +16,7 @@ public class CharacterController : MonoBehaviour
     public float lifeLeft;
     public float[] bloodPercentages = new float[4];
     public float maxSpeed;
+    public PortraitData portraitData;
     [SerializeField] private float speed;
     private Vector2 latestMovementVector;
     private Rigidbody2D rb;
@@ -25,6 +26,8 @@ public class CharacterController : MonoBehaviour
     {
         CalculateSpeed();
         lifeLeft = maxLifeLeft;
+        portraitData = new PortraitData(GameManager.Instance.portraitCreator);
+        portraitController.currentPortrait = portraitData;
     }
     public void Setup(float[] newBloodPercentages)
     {

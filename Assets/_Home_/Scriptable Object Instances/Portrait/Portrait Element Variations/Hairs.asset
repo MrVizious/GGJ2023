@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e174c308a34d6e4aa8a295805b2f5c1, type: 3}
   m_Name: Hairs
   m_EditorClassIdentifier: 
-  possibleSprites: []
+  possibleSprites:
+  - {fileID: 1117514167, guid: e390fa68e42b05c4289f1a3c24daff6e, type: 3}

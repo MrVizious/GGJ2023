@@ -9,8 +9,8 @@ using UnityEngine;
 /// </summary>
 public class PortraitCreator : ScriptableObject
 {
-    [SerializeField] private PortraitElementVariations backgroundVariations, bodyVariations, eyesVariations, noseVariations, clothesVariations, hairVariations, mouthVariations, complementVariations, frameVariations, coloredBorderVariations;
-    [SerializeField] private Sprite coloredBorderSprite;
+    [SerializeField] private PortraitElementVariations backgroundVariations, bodyVariations, eyesVariations, noseVariations, clothesVariations, hairVariations, mouthVariations, complementVariations;
+    [SerializeField] private Sprite coloredBorderSprite, frameSprite;
 
     public Sprite GetBackground()
     {
@@ -46,7 +46,7 @@ public class PortraitCreator : ScriptableObject
     }
     public Sprite GetFrame()
     {
-        return frameVariations.GetRandom();
+        return frameSprite;
     }
     public Sprite GetColoredBorder()
     {
