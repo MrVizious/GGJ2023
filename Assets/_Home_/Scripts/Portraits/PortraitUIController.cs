@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PortraitController : MonoBehaviour
+public class PortraitUIController : MonoBehaviour
 {
     [SerializeField]
-    private SpriteRenderer backgroundRenderer, bodyRenderer, eyesRenderer, noseRenderer, clothesRenderer, hairRenderer, mouthRenderer, complementRenderer, frameRenderer, coloredBorderRenderer;
+    private Image backgroundRenderer, bodyRenderer, eyesRenderer, noseRenderer, clothesRenderer, hairRenderer, mouthRenderer, complementRenderer, frameRenderer, coloredBorderRenderer;
     private PortraitData _currentPortrait;
     public PortraitData currentPortrait
     {
