@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using RuntimeSet;
+using RuntimeSets;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,14 +19,14 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 v = context.ReadValue<Vector2>();
         //Debug.Log(playerNumber + ": " + v);
-        leftCharacter?.Move(v);
+        leftCharacter?.SetMoveVector(v);
     }
 
     public void MoveRightCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
         Debug.Log(playerNumber + ": " + v);
-        rightCharacter?.Move(v);
+        rightCharacter?.SetMoveVector(v);
     }
 
     public void ChangeLeftCharacterForward(InputAction.CallbackContext context)
