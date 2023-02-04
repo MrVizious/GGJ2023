@@ -7,7 +7,7 @@ using RuntimeSet;
 public class PlayerController : MonoBehaviour
 {
     //TODO: Character class and its subsequent CharacterRuntimeSet SO class
-    //[SerializeField] private Character leftCharacter, rightCharacter;
+    [SerializeField] private CharacterController leftCharacter, rightCharacter;
     //public CharacterRuntimeSet availableCharacters;
     public int playerNumber = 0;
 
@@ -19,12 +19,14 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 v = context.ReadValue<Vector2>();
         Debug.Log(playerNumber + ": " + v);
+        leftCharacter?.move(v);
     }
 
     public void MoveRightCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
         Debug.Log(playerNumber + ": " + v);
+        rightCharacter?.move(v);
     }
 
     public void ChangeLeftCharacterForward(InputAction.CallbackContext context)
