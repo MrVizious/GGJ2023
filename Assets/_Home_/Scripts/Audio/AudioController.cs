@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DesignPatterns;
 
-public class AudioController : MonoBehaviour
+public class AudioController : Singleton<AudioController>
 {
     public AudioClip[] musicaBG = new AudioClip[4];
-    public AudioClip[] SonidosSFX = new AudioClip[10];
+    public AudioClip[] SoundsSFX = new AudioClip[10];
 
     public AudioSource SFXAudioSource;
     public AudioSource MusicAudioSource;
@@ -14,18 +15,10 @@ public class AudioController : MonoBehaviour
 
     private void Start()
     {
-         AudioController.instance.ChangeMusic(musicaBG[0]);
+        AudioController.Instance.ChangeMusic(musicaBG[0]);
     }
 
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-    }
-
-    private void PlaySFX(AudioClip sfxClip)
+    public void PlaySFX(AudioClip sfxClip)
     {
         SFXAudioSource.PlayOneShot(sfxClip);
     }
