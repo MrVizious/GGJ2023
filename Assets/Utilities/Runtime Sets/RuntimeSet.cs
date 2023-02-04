@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace RuntimeSet
+namespace RuntimeSets
 {
     public abstract class RuntimeSet<T> : ScriptableObject
     {
@@ -19,6 +19,11 @@ namespace RuntimeSet
         {
             if (Items.Contains(thing))
                 Items.Remove(thing);
+        }
+
+        public void Clear()
+        {
+            Items.Clear();
         }
     }
 }
