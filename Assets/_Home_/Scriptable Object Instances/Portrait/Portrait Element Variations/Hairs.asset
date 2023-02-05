@@ -13,4 +13,9 @@ MonoBehaviour:
   m_Name: Hairs
   m_EditorClassIdentifier: 
   possibleSprites:
-  - {fileID: 1117514167, guid: e390fa68e42b05c4289f1a3c24daff6e, type: 3}
+  - {fileID: 21300000, guid: 280defaa4f68d754fb65b8c3ffa1bdaa, type: 3}
+  - {fileID: 21300000, guid: b87cb2a2720257a4cbefcbb3fe673f6f, type: 3}
+  - {fileID: 21300000, guid: 42ed106d4bc820d44bb83b983b2e1387, type: 3}
+  - {fileID: 21300000, guid: fe0b874713445bf4dbf0bed27d9dcee1, type: 3}
+  - {fileID: 21300000, guid: 0bce6c36aff14b943a6c9f9c7650588d, type: 3}
+  - {fileID: 21300000, guid: 420ef8a110510d34a808102ab57a2a1d, type: 3}
