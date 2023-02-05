@@ -53,8 +53,9 @@ public sealed class GameManager : Singleton<GameManager>
         return true;
     }
 
-    private void GameOver()
+    public void GameOver()
     {
-        Debug.Log("Game Over!");
+        Transform.FindObjectOfType<CameraMovement>().goingDown = false;
+        Destroy(this);
     }
 }
