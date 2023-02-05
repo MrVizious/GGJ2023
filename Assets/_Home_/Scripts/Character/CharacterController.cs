@@ -19,7 +19,7 @@ public class CharacterController : MonoBehaviour
     public PortraitData portraitData;
     [SerializeField] private float speed;
     private Vector2 latestMovementVector;
-    private Rigidbody2D rb;
+    [HideInInspector] public Rigidbody2D rb;
     private List<CharacterController> bredCharacterControllers;
     private int unseenFrames = 0;
     public Renderer rendererComponent;
@@ -135,6 +135,7 @@ public class CharacterController : MonoBehaviour
                 transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f,
                 Quaternion.identity).GetComponent<CharacterController>();
         newChild.Setup(GetChildBloodPercentages(other.bloodPercentages));
+        newChild.portraitController.SetColor(Color.white);
     }
 
     private float[] GetChildBloodPercentages(float[] otherBloodPercentages)

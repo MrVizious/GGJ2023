@@ -13,9 +13,10 @@ public class PlayerController : MonoBehaviour
         set
         {
             leftCharacter.portraitController.SetColor(Color.white);
+            leftCharacter.rb.velocity = Vector2.zero;
             leftPortraitController.currentCharacter = value;
             _leftCharacter = value;
-            _rightCharacter.portraitController.SetColor(leftColor);
+            _leftCharacter.portraitController.SetColor(leftColor);
         }
 
         get { return _leftCharacter; }
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         set
         {
             rightCharacter.portraitController.SetColor(Color.white);
+            rightCharacter.rb.velocity = Vector2.zero;
             rightPortraitController.currentCharacter = value;
             _rightCharacter = value;
             _rightCharacter.portraitController.SetColor(rightColor);
@@ -66,55 +68,23 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
-            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex + 1);
+            CharacterController newCharacter = availableCharacters.RemoveFirst();
             if (newCharacter == null) return;
             if (leftCharacter != null) availableCharacters.Add(leftCharacter);
             leftCharacter = newCharacter;
-            availableCharacterIndex = availableCharacters.IndexOf(leftCharacter);
-            availableCharacters.Remove(leftCharacter);
-            leftPortraitController.currentCharacter = leftCharacter;
         }
     }
 
-    public void ChangeLeftCharacterBackward(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex - 1);
-            if (newCharacter == null) return;
-            if (leftCharacter != null) availableCharacters.Add(leftCharacter);
-            leftCharacter = newCharacter;
-            availableCharacterIndex = availableCharacters.IndexOf(leftCharacter);
-            availableCharacters.Remove(leftCharacter);
-            leftPortraitController.currentCharacter = leftCharacter;
-        }
-    }
 
     public void ChangeRightCharacterForward(InputAction.CallbackContext context)
     {
         if (context.started)
         {
-            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex + 1);
+            CharacterController newCharacter = availableCharacters.RemoveFirst();
             if (newCharacter == null) return;
             if (rightCharacter != null) availableCharacters.Add(rightCharacter);
             rightCharacter = newCharacter;
-            availableCharacterIndex = availableCharacters.IndexOf(rightCharacter);
-            availableCharacters.Remove(rightCharacter);
-            rightPortraitController.currentCharacter = rightCharacter;
         }
     }
 
-    public void ChangeRightCharacterBackward(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex - 1);
-            if (newCharacter == null) return;
-            if (rightCharacter != null) availableCharacters.Add(rightCharacter);
-            rightCharacter = newCharacter;
-            availableCharacterIndex = availableCharacters.IndexOf(rightCharacter);
-            availableCharacters.Remove(rightCharacter);
-            rightPortraitController.currentCharacter = rightCharacter;
-        }
-    }
 }
