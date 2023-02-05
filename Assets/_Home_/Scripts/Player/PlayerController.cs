@@ -6,7 +6,32 @@ using RuntimeSets;
 
 public class PlayerController : MonoBehaviour
 {
-    public CharacterController leftCharacter, rightCharacter;
+    public Color leftColor, rightColor;
+    public CharacterController _leftCharacter, _rightCharacter;
+    public CharacterController leftCharacter
+    {
+        set
+        {
+            leftCharacter.portraitController.SetColor(Color.white);
+            leftPortraitController.currentCharacter = value;
+            _leftCharacter = value;
+            _rightCharacter.portraitController.SetColor(leftColor);
+        }
+
+        get { return _leftCharacter; }
+    }
+    public CharacterController rightCharacter
+    {
+        set
+        {
+            rightCharacter.portraitController.SetColor(Color.white);
+            rightPortraitController.currentCharacter = value;
+            _rightCharacter = value;
+            _rightCharacter.portraitController.SetColor(rightColor);
+        }
+
+        get { return _rightCharacter; }
+    }
     public RuntimeSetCharacterController availableCharacters;
     public int playerNumber = 0;
     private int availableCharacterIndex = 0;
@@ -14,7 +39,12 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         leftPortraitController.currentCharacter = leftCharacter;
+        leftPortraitController.SetColor(leftColor);
+        rightPortraitController.SetColor(rightColor);
         rightPortraitController.currentCharacter = rightCharacter;
+        leftCharacter.portraitController.SetColor(leftColor);
+        rightCharacter.portraitController.SetColor(rightColor);
+
     }
 
     [SerializeField] private PortraitUIController leftPortraitController, rightPortraitController;
