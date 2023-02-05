@@ -5,7 +5,7 @@ using UnityEngine;
 public class PortraitGameController : MonoBehaviour
 {
     [SerializeField]
-    private SpriteRenderer backgroundRenderer, bodyRenderer, eyesRenderer, noseRenderer, clothesRenderer, hairRenderer, mouthRenderer, complementRenderer, frameRenderer, coloredBorderRenderer;
+    private SpriteRenderer backgroundRenderer, neckRenderer, headRenderer, eyesRenderer, noseRenderer, clothesRenderer, hairRenderer, mouthRenderer, complementRenderer, frameRenderer, coloredBorderRenderer;
     private PortraitData _currentPortrait;
     public PortraitData currentPortrait
     {
@@ -29,8 +29,8 @@ public class PortraitGameController : MonoBehaviour
 
     private void Render()
     {
-        backgroundRenderer.sprite = currentPortrait.backgroundSprite;
-        bodyRenderer.sprite = currentPortrait.bodySprite;
+        //backgroundRenderer.sprite = currentPortrait.backgroundSprite;
+        headRenderer.sprite = currentPortrait.headSprite;
         eyesRenderer.sprite = currentPortrait.eyesSprite;
         noseRenderer.sprite = currentPortrait.noseSprite;
         clothesRenderer.sprite = currentPortrait.clothesSprite;
@@ -49,7 +49,7 @@ public class PortraitGameController : MonoBehaviour
     public void SetToSepia()
     {
         backgroundRenderer.material = sepiaMaterial;
-        bodyRenderer.material = sepiaMaterial;
+        headRenderer.material = sepiaMaterial;
         eyesRenderer.material = sepiaMaterial;
         noseRenderer.material = sepiaMaterial;
         clothesRenderer.material = sepiaMaterial;
@@ -58,5 +58,6 @@ public class PortraitGameController : MonoBehaviour
         complementRenderer.material = sepiaMaterial;
         frameRenderer.material = sepiaMaterial;
         coloredBorderRenderer.material = sepiaMaterial;
+        neckRenderer.material = sepiaMaterial;
     }
 }

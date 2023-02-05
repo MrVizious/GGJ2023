@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf297c45a4580a449cd3833a2e3c9c1, type: 3}
+  m_Name: Portrait Creator Future
+  m_EditorClassIdentifier: 
+  headVariations: {fileID: 11400000, guid: e3ed20978a7ed684a856c145d02b7b0c, type: 2}
+  eyesVariations: {fileID: 11400000, guid: 8bee8099a3d5f7d41be4dcffb1ccdc10, type: 2}
+  noseVariations: {fileID: 11400000, guid: 57f939524d4078b439d1826587e8b337, type: 2}
+  clothesVariations: {fileID: 11400000, guid: 38314087ffd80d649a1478c3d5002239, type: 2}
+  hairVariations: {fileID: 11400000, guid: d7285cbcae7afd94db1e9ed6caf1fef2, type: 2}
+  mouthVariations: {fileID: 11400000, guid: c513aa941ffd4694183c932132bac232, type: 2}
+  complementVariations: {fileID: 11400000, guid: 0e37ab916e56d3e43ac66ba641b6c7eb, type: 2}
+  coloredBorderSprite: {fileID: 21300000, guid: 6bf7897675118a04bb0ba8fc704a2aed, type: 3}
+  frameSprite: {fileID: 21300000, guid: 374ff2200d0161f449f0ac5816e26e0f, type: 3}

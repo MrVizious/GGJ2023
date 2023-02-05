@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e174c308a34d6e4aa8a295805b2f5c1, type: 3}
+  m_Name: Noses
+  m_EditorClassIdentifier: 
+  possibleSprites:
+  - {fileID: 21300000, guid: 95a5c3e4bbd49b0438be51de34a9488b, type: 3}
+  - {fileID: 21300000, guid: e401ed3c65b40644dbcbf0c8a93f86ce, type: 3}
+  - {fileID: 21300000, guid: 43a816aeb2d9b9346b22bb91f708573b, type: 3}
+  - {fileID: 21300000, guid: b31e7a64414c37740aea538c69ee4912, type: 3}
+  - {fileID: 21300000, guid: 42017a61fc5df1141a7eeed6c752be7e, type: 3}
+  - {fileID: 21300000, guid: aa769b26dcb39374bb5b44cfcb831fed, type: 3}
+  - {fileID: 21300000, guid: 6e68d2d01213f7348af5123d5bfc6080, type: 3}
+  - {fileID: 21300000, guid: 6057e7cdb0c38924eb60e7863f9dac57, type: 3}
+  - {fileID: 21300000, guid: 53fc4521948d65b4c9035a4584e835f3, type: 3}
+  - {fileID: 21300000, guid: 8c7377230c9885048b0435ea73aa3c24, type: 3}
+  - {fileID: 21300000, guid: e68948c9853fc384daad45f565fa22a1, type: 3}
+  - {fileID: 21300000, guid: 60bc154745d1dde47a61f9b1b41cae38, type: 3}
+  - {fileID: 21300000, guid: ced145aec3c2b0243821efbaa0b793da, type: 3}

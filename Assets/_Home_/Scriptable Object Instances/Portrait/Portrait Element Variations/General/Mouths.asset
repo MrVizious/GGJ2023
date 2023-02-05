@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e174c308a34d6e4aa8a295805b2f5c1, type: 3}
+  m_Name: Mouths
+  m_EditorClassIdentifier: 
+  possibleSprites:
+  - {fileID: 21300000, guid: 1eca6c3d1e73cae44a1b60d73f7f6325, type: 3}
+  - {fileID: 21300000, guid: 8e9b93e8961ac6644841546f2039a96c, type: 3}
+  - {fileID: 21300000, guid: 6e9493e3a27213e4bb1ea681662e1037, type: 3}
+  - {fileID: 21300000, guid: 304c880678a68d645b6ad3e1826b4c5b, type: 3}
+  - {fileID: 21300000, guid: 60a4f8bf042584d40b6b604876b9b9ef, type: 3}
+  - {fileID: 21300000, guid: 7a070dde30918ae429eebe049f798c3a, type: 3}
+  - {fileID: 21300000, guid: 8e94e51c6720d1442af3c7fc80b64b2a, type: 3}
+  - {fileID: 21300000, guid: 40ba63ea7a46d1e448908fb7d3c44484, type: 3}
+  - {fileID: 21300000, guid: 472d75487e6d91e4a999bb7e6ae78565, type: 3}
+  - {fileID: 21300000, guid: 965cbc58f9bca9c4bab66c6bb97ce2ac, type: 3}
+  - {fileID: 21300000, guid: 905a4bf7201e53543aa54127479c8cb9, type: 3}
+  - {fileID: 21300000, guid: ca8b9a9bcef47814aaa3d25df86ec409, type: 3}
+  - {fileID: 21300000, guid: a7f448d82ef01d347ab5a47a4daacc04, type: 3}
+  - {fileID: 21300000, guid: da1d0b59a83d82648bbf7113c49d246c, type: 3}

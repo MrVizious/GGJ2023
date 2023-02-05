@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf297c45a4580a449cd3833a2e3c9c1, type: 3}
   m_Name: Portrait Creator Medieval
   m_EditorClassIdentifier: 
-  backgroundVariations: {fileID: 11400000, guid: ed942a4327cd8714182271562af4df69, type: 2}
-  bodyVariations: {fileID: 11400000, guid: c4fa95549a81623499a18b4427279cb9, type: 2}
-  eyesVariations: {fileID: 11400000, guid: fdb241a708e8f4345bbe6d7f22bdd477, type: 2}
-  noseVariations: {fileID: 11400000, guid: 11ea9d1c77ccea64b8df3ddc7ea9df43, type: 2}
+  headVariations: {fileID: 11400000, guid: e3ed20978a7ed684a856c145d02b7b0c, type: 2}
+  eyesVariations: {fileID: 11400000, guid: 8bee8099a3d5f7d41be4dcffb1ccdc10, type: 2}
+  noseVariations: {fileID: 11400000, guid: 57f939524d4078b439d1826587e8b337, type: 2}
   clothesVariations: {fileID: 11400000, guid: 2e90c723ca8180641b2fd03782ce337d, type: 2}
   hairVariations: {fileID: 11400000, guid: c08d9fe9185186047bc00a0b894c015e, type: 2}
-  mouthVariations: {fileID: 11400000, guid: 7af5c2c36047ba34c8dbda04144fbfc0, type: 2}
+  mouthVariations: {fileID: 11400000, guid: c513aa941ffd4694183c932132bac232, type: 2}
   complementVariations: {fileID: 11400000, guid: cf00cd1db63ff91469eba880cec0cb25, type: 2}
-  coloredBorderSprite: {fileID: 1117514167, guid: e390fa68e42b05c4289f1a3c24daff6e, type: 3}
-  frameSprite: {fileID: 1117514167, guid: e390fa68e42b05c4289f1a3c24daff6e, type: 3}
+  coloredBorderSprite: {fileID: 21300000, guid: 5018453ce3a9ec948b007db5ce2f74ee, type: 3}
+  frameSprite: {fileID: 21300000, guid: 8a0a68ba1846f6146b0a5468ec8f8d39, type: 3}

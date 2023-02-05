@@ -40,6 +40,33 @@ namespace RuntimeSets
             return Items[index % Items.Count];
         }
 
+        public T RemoveItemAt(int index)
+        {
+            if (Items.Count <= 0)
+            {
+                Debug.LogError("There are no elements in the RuntimeSet", this);
+                return default(T);
+            }
+            if (index > Items.Count)
+            {
+                Debug.LogError("Index " + index + " is too big for the RuntimeSet", this);
+                return default(T);
+            }
+            if (index < 0)
+            {
+                Debug.LogError("Index " + index + " is too small for the RuntimeSet", this);
+                return default(T);
+            }
+            T removedItem = Items[index];
+            Items.RemoveAt(index);
+            return removedItem;
+        }
+
+        public T RemoveFirst()
+        {
+            return RemoveItemAt(0);
+        }
+
         public int IndexOf(T Item)
         {
             return Items.IndexOf(Item);
