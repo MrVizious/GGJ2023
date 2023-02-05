@@ -7,8 +7,8 @@ public class PortraitData
     public Sprite backgroundSprite, bodySprite, eyesSprite, noseSprite, clothesSprite, hairSprite, mouthSprite, complementSprite, frameSprite, coloredBorderSprite;
     public PortraitData(PortraitCreator portraitCreator)
     {
-        backgroundSprite = portraitCreator.GetBackground();
-        bodySprite = portraitCreator.GetBody();
+        //backgroundSprite = portraitCreator.GetBackground();
+        bodySprite = portraitCreator.GetHead();
         eyesSprite = portraitCreator.GetEyes();
         noseSprite = portraitCreator.GetNose();
         clothesSprite = portraitCreator.GetClothes();

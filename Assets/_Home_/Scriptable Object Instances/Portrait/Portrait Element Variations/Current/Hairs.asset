@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e174c308a34d6e4aa8a295805b2f5c1, type: 3}
+  m_Name: Hairs
+  m_EditorClassIdentifier: 
+  possibleSprites:
+  - {fileID: 21300000, guid: 0eec111117a1d404f98fd45052a5b8b6, type: 3}
+  - {fileID: 21300000, guid: c557ea6b9f7dbad4e85ffa60183367d8, type: 3}
+  - {fileID: 21300000, guid: e4e1b52bf7646dd429495b5145f12ed7, type: 3}
+  - {fileID: 21300000, guid: 9ea72c9ff5cba1f439c8bfb882d0f978, type: 3}
+  - {fileID: 21300000, guid: 80dcbbd3cbbff2046abc67a3958c5089, type: 3}

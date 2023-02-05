@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e174c308a34d6e4aa8a295805b2f5c1, type: 3}
+  m_Name: Hairs
+  m_EditorClassIdentifier: 
+  possibleSprites:
+  - {fileID: 21300000, guid: 6d8cb2f8a8d5cc94481bcf089907859c, type: 3}
+  - {fileID: 21300000, guid: 91d402c4b4bf05a489a64bea669546ec, type: 3}
+  - {fileID: 21300000, guid: 77bf162f4a060464292d97d8e9df5676, type: 3}
+  - {fileID: 21300000, guid: dd96053725f95e44e98ce057ca50ce38, type: 3}
+  - {fileID: 21300000, guid: 7d6a950ad9a032146aedc2154410320c, type: 3}
+  - {fileID: 21300000, guid: 7cde1eed76ea5e2448c2fa1b54a2aeb2, type: 3}
+  - {fileID: 21300000, guid: e1769804214d58a429d2880c29858d25, type: 3}
+  - {fileID: 21300000, guid: c426ca23e83dff245b9b12b038560267, type: 3}
+  - {fileID: 21300000, guid: 2f6eec7c0cec4294c99a1add23a10d05, type: 3}
+  - {fileID: 21300000, guid: abfdc841bdd02614d9983e9d741d3fa9, type: 3}
+  - {fileID: 21300000, guid: b10bf7f6f769411428cee2d1d4d5fdd9, type: 3}
+  - {fileID: 21300000, guid: f1b7f4ad8931b004fb933b70b81e955e, type: 3}
+  - {fileID: 21300000, guid: 107f24e5de25936408b8c08d0f447f4a, type: 3}

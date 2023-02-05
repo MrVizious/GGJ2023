@@ -9,20 +9,16 @@ using UnityEngine;
 /// </summary>
 public class PortraitCreator : ScriptableObject
 {
-    [SerializeField] private PortraitElementVariations backgroundVariations, bodyVariations, eyesVariations, noseVariations, clothesVariations, hairVariations, mouthVariations, complementVariations;
+    [SerializeField] private PortraitElementVariations headVariations, eyesVariations, noseVariations, clothesVariations, hairVariations, mouthVariations, complementVariations;
     [SerializeField] private Sprite coloredBorderSprite, frameSprite;
 
-    public Sprite GetBackground()
+    public Sprite GetHead()
     {
-        return backgroundVariations.GetRandom();
-    }
-    public Sprite GetBody()
-    {
-        return bodyVariations.GetRandom();
+        return headVariations.GetRandom();
     }
     public Sprite GetEyes()
     {
-        return bodyVariations.GetRandom();
+        return eyesVariations.GetRandom();
     }
     public Sprite GetNose()
     {
