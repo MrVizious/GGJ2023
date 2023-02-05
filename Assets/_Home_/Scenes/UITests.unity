@@ -1404,10 +1404,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortraitUI Upper Left
       objectReference: {fileID: 0}
-    - target: {fileID: 8241652103963112120, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 82.77778
-      objectReference: {fileID: 0}
     - target: {fileID: 8812873628289951850, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}
       propertyPath: m_SizeDelta.x
       value: 82.77778
@@ -1891,6 +1887,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6449077812978613017, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8277778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449077812978613017, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
 --- !u!1001 &1697867543

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PortraitData
 {
-    public Sprite backgroundSprite, bodySprite, eyesSprite, noseSprite, clothesSprite, hairSprite, mouthSprite, complementSprite, frameSprite, coloredBorderSprite;
+    public Sprite backgroundSprite, headSprite, eyesSprite, noseSprite, clothesSprite, hairSprite, mouthSprite, complementSprite, frameSprite, coloredBorderSprite;
     public PortraitData(PortraitCreator portraitCreator)
     {
         //backgroundSprite = portraitCreator.GetBackground();
-        bodySprite = portraitCreator.GetHead();
+        headSprite = portraitCreator.GetHead();
         eyesSprite = portraitCreator.GetEyes();
         noseSprite = portraitCreator.GetNose();
         clothesSprite = portraitCreator.GetClothes();

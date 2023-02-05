@@ -57,7 +57,7 @@ public class PortraitUIController : MonoBehaviour
     private void Render()
     {
         PortraitData portraitData = currentCharacter.portraitData;
-        headRenderer.sprite = portraitData.bodySprite;
+        headRenderer.sprite = portraitData.headSprite;
         eyesRenderer.sprite = portraitData.eyesSprite;
         noseRenderer.sprite = portraitData.noseSprite;
         clothesRenderer.sprite = portraitData.clothesSprite;
