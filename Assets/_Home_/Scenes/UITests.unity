@@ -480,6 +480,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableCharacters: {fileID: 11400000, guid: b5dc7b35c4f1f0b499d43bf4edff1913, type: 2}
+  player1: {fileID: 102505725}
+  player2: {fileID: 1236944177}
   portraitCreators:
   - {fileID: 11400000, guid: 6803905ca64a3ca48af24576be67a7ba, type: 2}
 --- !u!4 &214765096
@@ -1950,6 +1952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1779150997}
+  - component: {fileID: 1779150998}
   m_Layer: 0
   m_Name: CameraPivot
   m_TagString: Untagged
@@ -1975,6 +1978,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1779150998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779150994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04efebe38792994fa5a08278ac4bfed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.3
 --- !u!114 &1817627560 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1695916979022337312, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}

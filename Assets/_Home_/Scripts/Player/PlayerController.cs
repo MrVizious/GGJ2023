@@ -6,8 +6,7 @@ using RuntimeSets;
 
 public class PlayerController : MonoBehaviour
 {
-    //TODO: Character class and its subsequent CharacterRuntimeSet SO class
-    [SerializeField] private CharacterController leftCharacter, rightCharacter;
+    public CharacterController leftCharacter, rightCharacter;
     public RuntimeSetCharacterController availableCharacters;
     public int playerNumber = 0;
     private int availableCharacterIndex = 0;
