@@ -123,7 +123,6 @@ public class CharacterController : MonoBehaviour
         }
         if (GetHashCode() > otherCharacter.GetHashCode())
         {
-            bredCharacterControllers.Add(otherCharacter);
             Breed(otherCharacter);
         }
 
@@ -131,8 +130,13 @@ public class CharacterController : MonoBehaviour
 
     public void Breed(CharacterController other)
     {
+        Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
+        Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
+        Debug.Log(screenCoords);
+        if (screenCoords.y < 0) return;
+        bredCharacterControllers.Add(other);
         CharacterController newChild = Instantiate(gameObject,
-                transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f,
+                newChildPosition,
                 Quaternion.identity).GetComponent<CharacterController>();
         newChild.Setup(GetChildBloodPercentages(other.bloodPercentages));
         newChild.portraitController.SetColor(Color.white);

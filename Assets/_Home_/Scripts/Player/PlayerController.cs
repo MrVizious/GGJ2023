@@ -12,9 +12,12 @@ public class PlayerController : MonoBehaviour
     {
         set
         {
-            leftCharacter.portraitController.SetColor(Color.white);
-            leftCharacter.rb.velocity = Vector2.zero;
-            leftPortraitController.currentCharacter = value;
+            if (leftCharacter != null)
+            {
+                leftCharacter.portraitController.SetColor(Color.white);
+                leftCharacter.rb.velocity = Vector2.zero;
+                leftPortraitController.currentCharacter = value;
+            }
             _leftCharacter = value;
             _leftCharacter.portraitController.SetColor(leftColor);
         }
@@ -25,9 +28,12 @@ public class PlayerController : MonoBehaviour
     {
         set
         {
-            rightCharacter.portraitController.SetColor(Color.white);
-            rightCharacter.rb.velocity = Vector2.zero;
-            rightPortraitController.currentCharacter = value;
+            if (rightCharacter != null)
+            {
+                rightCharacter.portraitController.SetColor(Color.white);
+                rightCharacter.rb.velocity = Vector2.zero;
+                rightPortraitController.currentCharacter = value;
+            }
             _rightCharacter = value;
             _rightCharacter.portraitController.SetColor(rightColor);
         }
