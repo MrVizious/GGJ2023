@@ -68,7 +68,7 @@ public sealed class GameManager : Singleton<GameManager>
 
     public void GameOver()
     {
-        Transform.FindObjectOfType<CameraMovement>().goingDown = false;
+        GameObject.FindObjectOfType<CameraMovement>().goingDown = false;
         Destroy(this);
     }
 }

@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
             _leftCharacter = value;
             _leftCharacter.isControlled = true;
             _leftCharacter.portraitController.SetColor(leftColor);
+            _leftCharacter.NotBreedFor(.5f);
         }
 
         get { return _leftCharacter; }
@@ -40,6 +41,7 @@ public class PlayerController : MonoBehaviour
             _rightCharacter = value;
             _rightCharacter.portraitController.SetColor(rightColor);
             _rightCharacter.isControlled = true;
+            _rightCharacter.NotBreedFor(.5f);
         }
 
         get { return _rightCharacter; }

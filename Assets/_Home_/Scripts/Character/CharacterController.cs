@@ -24,6 +24,9 @@ public class CharacterController : MonoBehaviour
     private List<CharacterController> bredCharacterControllers;
     private int unseenFrames = 0;
     public Renderer rendererComponent;
+    private IEnumerator notBreedTimeout;
+    [SerializeField] private bool breedable;
+    public int timesBred = 0;
 
     public float lifePercentage
     {
@@ -42,6 +45,7 @@ public class CharacterController : MonoBehaviour
         lifeLeft = maxLifeLeft;
         portraitData = new PortraitData(GameManager.Instance.portraitCreator);
         portraitController.currentPortrait = portraitData;
+        NotBreedFor(1f);
     }
     public void Setup(float[] newBloodPercentages)
     {
@@ -59,6 +63,16 @@ public class CharacterController : MonoBehaviour
     {
         SubstractLife();
         DeleteIfUnseen();
+    }
+
+    public void NotBreedFor(float seconds)
+    {
+        if (notBreedTimeout != null)
+        {
+            StopCoroutine(notBreedTimeout);
+        }
+        notBreedTimeout = NotBreedTimeout(seconds);
+        StartCoroutine(notBreedTimeout);
     }
 
     public void SetMoveVector(Vector2 v)
@@ -110,7 +124,7 @@ public class CharacterController : MonoBehaviour
         return max;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collision2D other)
     {
         CharacterController otherCharacter = other.gameObject.GetComponent<CharacterController>();
         if (bredCharacterControllers == null) bredCharacterControllers = new List<CharacterController>();
@@ -124,26 +138,40 @@ public class CharacterController : MonoBehaviour
         }
         if (GetHashCode() > otherCharacter.GetHashCode())
         {
-            Breed(otherCharacter);
+            if (Breed(otherCharacter))
+            {
+                otherCharacter.timesBred++;
+            }
         }
-
     }
 
-    public void Breed(CharacterController other)
+    public bool Breed(CharacterController other)
     {
-        if (!other.isControlled && !isControlled) return;
+        //if (other.timesBred + timesBred > 2) return false;
+        if (!breedable) return false;
+        if (!other.isControlled && !isControlled) return false;
         Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
-        if (screenCoords.y < 0) return;
-        AudioController audio = FindObjectOfType<AudioController>();
+        if (screenCoords.y < 0) return false;
+        AudioController audio = GameObject.FindObjectOfType<AudioController>();
         audio.PlaySFX(audio.SoundsSFX[5]);
         bredCharacterControllers.Add(other);
         CharacterController newChild = Instantiate(gameObject,
                 newChildPosition,
                 Quaternion.identity).GetComponent<CharacterController>();
+        newChild.isControlled = false;
         newChild.Setup(GetChildBloodPercentages(other.bloodPercentages));
         newChild.portraitController.SetColor(Color.white);
-        newChild.isControlled = false;
+        return true;
+    }
+
+    private IEnumerator NotBreedTimeout(float seconds)
+    {
+        Debug.Log("Timeout");
+        breedable = false;
+        yield return new WaitForSeconds(seconds);
+        breedable = true;
+        notBreedTimeout = null;
     }
 
     private float[] GetChildBloodPercentages(float[] otherBloodPercentages)
@@ -173,9 +201,9 @@ public class CharacterController : MonoBehaviour
     private void OnDestroy()
     {
         onDestroy.Invoke();
-        AudioController audio = FindObjectOfType<AudioController>();
-        audio.PlaySFX(audio.SoundsSFX[0]);
+        AudioController audio = GameObject.FindObjectOfType<AudioController>();
         portraitController.SetToSepia();
         availableCharacters.Remove(this);
+        audio.PlaySFX(audio.SoundsSFX[0]);
     }
 }
