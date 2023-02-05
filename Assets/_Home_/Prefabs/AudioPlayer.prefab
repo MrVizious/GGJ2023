@@ -304,12 +304,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicaBG:
-  - {fileID: 8300000, guid: 36dc4265c6defff429c9a46fd6c5aa23, type: 3}
-  SoundsSFX: []
-  AmbientSFXMedieval: []
-  AmbientSFXVictorian: []
-  AmbientSFXModern: []
-  AmbientSFXFuturistic: []
+  - {fileID: 8300000, guid: d0ea9f9a8f19a0c428fdd0ae01fce015, type: 3}
+  - {fileID: 8300000, guid: 74f7e50f268e5ad46904073c3af8ef82, type: 3}
+  - {fileID: 8300000, guid: 8341aca415c7633458a82fb090a3252f, type: 3}
+  - {fileID: 8300000, guid: 707a0b3a16db51941af85f3b5ef0acec, type: 3}
+  - {fileID: 8300000, guid: e3b5ce4239487eb4b83a73aa61ae6c8e, type: 3}
+  SoundsSFX:
+  - {fileID: 8300000, guid: 4883b6292bbfcfb45bc19a970bdc9252, type: 3}
+  - {fileID: 8300000, guid: 33d6697c9b5d2e64eac139d79b01538d, type: 3}
+  - {fileID: 8300000, guid: b135ecd1872ed1b4c8c7a0160ebb72fe, type: 3}
+  - {fileID: 8300000, guid: 600207935d8ed8745b04721183942684, type: 3}
+  - {fileID: 8300000, guid: 32baa716368d2ca458433db45ab2cfc6, type: 3}
+  - {fileID: 8300000, guid: 2587e90b3502b99458aedeecb9a022b0, type: 3}
+  AmbientSFXMedieval:
+  - {fileID: 8300000, guid: 0aa1f7c240c38ee4d8ac380ecf0a19a8, type: 3}
+  - {fileID: 8300000, guid: f0a5f6d99320d2b43a107c676e68575a, type: 3}
+  - {fileID: 8300000, guid: ac21daff734ba7f4aa94942e0784baa9, type: 3}
+  - {fileID: 8300000, guid: 02cc9c9a0b669af41b9d7976d6f02368, type: 3}
+  - {fileID: 8300000, guid: bca93fd023a53e046a665cfc1c320469, type: 3}
+  - {fileID: 8300000, guid: a6c07f98b6466984d82603f91f1caf09, type: 3}
+  AmbientSFXVictorian:
+  - {fileID: 8300000, guid: 0aa1f7c240c38ee4d8ac380ecf0a19a8, type: 3}
+  - {fileID: 8300000, guid: cb8071ee897a1eb4896bda94f6a11f12, type: 3}
+  - {fileID: 8300000, guid: dead358ee1617a44f815074ef26b154f, type: 3}
+  - {fileID: 8300000, guid: b40db9f5bf78d364fabf5000d96a6e45, type: 3}
+  AmbientSFXModern:
+  - {fileID: 8300000, guid: 0aa1f7c240c38ee4d8ac380ecf0a19a8, type: 3}
+  - {fileID: 8300000, guid: 55570293534c0004797765e167de65c5, type: 3}
+  - {fileID: 8300000, guid: 574777d6efeeb4741b4052b13c74bcd1, type: 3}
+  AmbientSFXFuturistic:
+  - {fileID: 8300000, guid: 0aa1f7c240c38ee4d8ac380ecf0a19a8, type: 3}
+  - {fileID: 8300000, guid: 3ec590fb37288cb42aa5ee53397d7329, type: 3}
+  - {fileID: 8300000, guid: 2ba41c8a6e1099d40a7b8ff33b7a1b83, type: 3}
+  - {fileID: 8300000, guid: 36143acdfd7350a40ba8cfa7ccf6c36f, type: 3}
   Epoca: 0
   SFXAudioSource: {fileID: 3646102786673887320}
   MusicAudioSource: {fileID: 3646102786223655650}
