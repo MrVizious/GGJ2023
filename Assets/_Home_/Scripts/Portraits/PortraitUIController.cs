@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ExtensionMethods;
 
 public class PortraitUIController : MonoBehaviour
 {
@@ -56,14 +57,15 @@ public class PortraitUIController : MonoBehaviour
     private void Render()
     {
         PortraitData portraitData = currentCharacter.portraitData;
-        backgroundRenderer.sprite = portraitData.backgroundSprite;
-        headRenderer.sprite = portraitData.bodySprite;
+        headRenderer.sprite = portraitData.headSprite;
         eyesRenderer.sprite = portraitData.eyesSprite;
         noseRenderer.sprite = portraitData.noseSprite;
         clothesRenderer.sprite = portraitData.clothesSprite;
         hairRenderer.sprite = portraitData.hairSprite;
         mouthRenderer.sprite = portraitData.mouthSprite;
         complementRenderer.sprite = portraitData.complementSprite;
+        if (complementRenderer.sprite == null) complementRenderer.color = new Color(0, 0, 0, 0);
+        else complementRenderer.color = Color.white;
         frameRenderer.sprite = portraitData.frameSprite;
         coloredBorderRenderer.sprite = portraitData.coloredBorderSprite;
 

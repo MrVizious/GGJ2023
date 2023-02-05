@@ -29,8 +29,8 @@ public class PortraitGameController : MonoBehaviour
 
     private void Render()
     {
-        backgroundRenderer.sprite = currentPortrait.backgroundSprite;
-        headRenderer.sprite = currentPortrait.bodySprite;
+        //backgroundRenderer.sprite = currentPortrait.backgroundSprite;
+        headRenderer.sprite = currentPortrait.headSprite;
         eyesRenderer.sprite = currentPortrait.eyesSprite;
         noseRenderer.sprite = currentPortrait.noseSprite;
         clothesRenderer.sprite = currentPortrait.clothesSprite;

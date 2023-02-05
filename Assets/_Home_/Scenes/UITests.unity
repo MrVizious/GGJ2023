@@ -303,35 +303,11 @@ MonoBehaviour:
     m_ActionId: eb28cd3b-0da1-403b-94ef-376b18b59dce
     m_ActionName: Player/Change left
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 102505725}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: ChangeRightCharacterBackward
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 277c83f7-c67e-4b10-9c51-95d1b51f28f8
     m_ActionName: Player/Change backward right
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 102505725}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: ChangeLeftCharacterBackward
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 5bea5d29-580f-4fed-95fa-c46854bbdc97
     m_ActionName: Player/Change backward left
   m_NeverAutoSwitchControlSchemes: 0
@@ -351,8 +327,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c56d886ddee4cd4790bcece743453e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftCharacter: {fileID: 1134357448}
-  rightCharacter: {fileID: 1957132747}
+  leftColor: {r: 0, g: 0.97183084, b: 1, a: 1}
+  rightColor: {r: 0.034380913, g: 0, b: 1, a: 1}
+  _leftCharacter: {fileID: 1134357448}
+  _rightCharacter: {fileID: 1957132747}
   availableCharacters: {fileID: 11400000, guid: b5dc7b35c4f1f0b499d43bf4edff1913, type: 2}
   playerNumber: 0
   leftPortraitController: {fileID: 1975976254}
@@ -1093,8 +1071,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c56d886ddee4cd4790bcece743453e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftCharacter: {fileID: 1215412329}
-  rightCharacter: {fileID: 23976556}
+  leftColor: {r: 1, g: 0, b: 0, a: 1}
+  rightColor: {r: 1, g: 0.5467174, b: 0, a: 1}
+  _leftCharacter: {fileID: 1215412329}
+  _rightCharacter: {fileID: 23976556}
   availableCharacters: {fileID: 11400000, guid: b5dc7b35c4f1f0b499d43bf4edff1913, type: 2}
   playerNumber: 1
   leftPortraitController: {fileID: 1319376771}
@@ -1403,10 +1383,6 @@ PrefabInstance:
     - target: {fileID: 7357643306286624306, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}
       propertyPath: m_Name
       value: PortraitUI Upper Left
-      objectReference: {fileID: 0}
-    - target: {fileID: 8241652103963112120, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 82.77778
       objectReference: {fileID: 0}
     - target: {fileID: 8812873628289951850, guid: 5c32c7f7b102cc34090b4690cdedd7f0, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1891,6 +1867,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6449077812978613017, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8277778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449077812978613017, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
 --- !u!1001 &1697867543

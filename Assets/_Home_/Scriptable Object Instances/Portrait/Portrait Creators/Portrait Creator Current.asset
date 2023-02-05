@@ -19,5 +19,5 @@ MonoBehaviour:
   hairVariations: {fileID: 11400000, guid: f303aa000e5a8df4498c59f99031320f, type: 2}
   mouthVariations: {fileID: 11400000, guid: c513aa941ffd4694183c932132bac232, type: 2}
   complementVariations: {fileID: 11400000, guid: d98937f33aeac8a4dbc6fce08acee3d3, type: 2}
-  coloredBorderSprite: {fileID: 21300000, guid: 332117d6e42a4f44daae15ac730e33ea, type: 3}
-  frameSprite: {fileID: 21300000, guid: e25c39a3499278c4bb00dab7bd3dd97f, type: 3}
+  coloredBorderSprite: {fileID: 21300000, guid: 01989312057a8f841b706fcc79c2a52b, type: 3}
+  frameSprite: {fileID: 21300000, guid: 62159e50b63b84945828eeb7d3fd1be1, type: 3}
