@@ -25,7 +25,7 @@ public sealed class GameManager : Singleton<GameManager>
         CheckGameOver();
     }
 
-    public void NextPortraitCreator()
+    public void NextAge()
     {
         currentPortraitCreatorIndex++;
         if (currentPortraitCreatorIndex >= portraitCreators.Count)

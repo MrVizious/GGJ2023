@@ -25,6 +25,7 @@ public class PortraitGameController : MonoBehaviour
             Render();
         }
     }
+    public Material sepiaMaterial;
 
     private void Render()
     {
@@ -43,5 +44,19 @@ public class PortraitGameController : MonoBehaviour
     public void SetColor(Color newColor)
     {
         coloredBorderRenderer.color = newColor;
+    }
+
+    public void SetToSepia()
+    {
+        backgroundRenderer.material = sepiaMaterial;
+        bodyRenderer.material = sepiaMaterial;
+        eyesRenderer.material = sepiaMaterial;
+        noseRenderer.material = sepiaMaterial;
+        clothesRenderer.material = sepiaMaterial;
+        hairRenderer.material = sepiaMaterial;
+        mouthRenderer.material = sepiaMaterial;
+        complementRenderer.material = sepiaMaterial;
+        frameRenderer.material = sepiaMaterial;
+        coloredBorderRenderer.material = sepiaMaterial;
     }
 }

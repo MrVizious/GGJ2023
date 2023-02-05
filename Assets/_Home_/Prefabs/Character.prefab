@@ -177,6 +177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortraitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 8580024417838379345, guid: d58c7a2e88c850a4b87d2151dcad345a, type: 3}
+      propertyPath: sepiaMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 41f953a6dc5549a4bbf21557cac63647, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d58c7a2e88c850a4b87d2151dcad345a, type: 3}
 --- !u!212 &2807446344733549102 stripped

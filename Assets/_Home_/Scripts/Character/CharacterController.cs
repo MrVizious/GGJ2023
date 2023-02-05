@@ -164,6 +164,7 @@ public class CharacterController : MonoBehaviour
     private void OnDestroy()
     {
         onDestroy.Invoke();
+        portraitController.SetToSepia();
         availableCharacters.Remove(this);
     }
 }
