@@ -22,6 +22,13 @@ public class CharacterController : MonoBehaviour
     private Rigidbody2D rb;
     private List<CharacterController> bredCharacterControllers;
 
+    public float lifePercentage
+    {
+        get
+        {
+            return lifeLeft / maxLifeLeft;
+        }
+    }
     private void Start()
     {
         CalculateSpeed();

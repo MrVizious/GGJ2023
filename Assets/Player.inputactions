@@ -1,5 +1,5 @@
 {
-    "name": "Movement",
+    "name": "Player",
     "maps": [
         {
             "name": "Player",
@@ -24,7 +24,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Change right",
+                    "name": "Change forward right",
                     "type": "Button",
                     "id": "d58a1fbc-f897-4928-85fb-8f7038356607",
                     "expectedControlType": "Button",
@@ -33,9 +33,27 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Change left",
+                    "name": "Change backward right",
+                    "type": "Button",
+                    "id": "277c83f7-c67e-4b10-9c51-95d1b51f28f8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Change forward left",
                     "type": "Button",
                     "id": "eb28cd3b-0da1-403b-94ef-376b18b59dce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Change backward left",
+                    "type": "Button",
+                    "id": "5bea5d29-580f-4fed-95fa-c46854bbdc97",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -72,7 +90,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Change right",
+                    "action": "Change forward right",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -83,7 +101,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Change left",
+                    "action": "Change forward left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2231b10-9b4c-4700-a239-25c2f33ce280",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Change backward right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf6b82e9-738b-412d-a80e-731f9e0a5d73",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Change backward left",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
