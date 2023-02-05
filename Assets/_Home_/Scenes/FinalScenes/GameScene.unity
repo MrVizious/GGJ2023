@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04efebe38792994fa5a08278ac4bfed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  downSpeed: 3
-  upSpeed: 2
+  downSpeed: 1
+  upSpeed: 3
   sceneController: {fileID: 835724104}
   goingDown: 1
 --- !u!4 &11451902
@@ -845,7 +845,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1dd2663e2d12089468127b2ce4da38a0, type: 2}
   - {fileID: 11400000, guid: 1f6a6116c2d260645b25ef2937363141, type: 2}
   currentAgeIndex: 0
-  audioController: {fileID: 0}
+  audioController: {fileID: 1822473432}
 --- !u!4 &392787049
 Transform:
   m_ObjectHideFlags: 0
@@ -1374,6 +1374,10 @@ PrefabInstance:
       value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: isControlled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: bloodPercentages.Array.data[3]
       value: 1
       objectReference: {fileID: 0}
@@ -1478,6 +1482,10 @@ PrefabInstance:
       value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: isControlled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: bloodPercentages.Array.data[2]
       value: 1
       objectReference: {fileID: 0}
@@ -1552,6 +1560,10 @@ PrefabInstance:
     - target: {fileID: 1689544719554837551, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: m_TagString
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: isControlled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: bloodPercentages.Array.data[1]
@@ -3252,6 +3264,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: isControlled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: bloodPercentages.Array.data[0]
       value: 1

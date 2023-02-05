@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class CharacterController : MonoBehaviour
 {
+    public bool isControlled = false;
     public UnityEvent onDestroy;
     [SerializeField] private RuntimeSetCharacterController availableCharacters;
     [SerializeField] private bool isStarter = false;
@@ -130,6 +131,7 @@ public class CharacterController : MonoBehaviour
 
     public void Breed(CharacterController other)
     {
+        if (!other.isControlled && !isControlled) return;
         Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
         if (screenCoords.y < 0) return;
@@ -141,6 +143,7 @@ public class CharacterController : MonoBehaviour
                 Quaternion.identity).GetComponent<CharacterController>();
         newChild.Setup(GetChildBloodPercentages(other.bloodPercentages));
         newChild.portraitController.SetColor(Color.white);
+        newChild.isControlled = false;
     }
 
     private float[] GetChildBloodPercentages(float[] otherBloodPercentages)
