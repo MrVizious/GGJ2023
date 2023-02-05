@@ -15,6 +15,7 @@ public class TimelineController : MonoBehaviour
     [SerializeField] private List<HistoricalEvent> historicalEvents;
     [SerializeField] private int totalSizeInYears = 50;
     [SerializeField] private TMP_Text text;
+    public float speed = 10f;
     private Dictionary<HistoricalEvent, GameObject> historicalEventsMarkers;
     private RectTransform rTransform;
 
@@ -26,7 +27,7 @@ public class TimelineController : MonoBehaviour
     }
     private void Update()
     {
-        currentYear += 2f * Time.deltaTime;
+        currentYear += speed * Time.deltaTime;
         text.text = Mathf.RoundToInt(currentYear).ToString();
         UpdateHistoricalEventsPositions();
     }

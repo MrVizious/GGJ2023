@@ -1,0 +1,2127 @@
+fileFormatVersion: 2
+guid: 6a41d266b9328f64b9a26c09e8f59006
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: matraz_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d41dd119227e04980dc53d850c6c5b
+      internalID: -15622763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a83aa127be604419b2f50116a51010
+      internalID: 338213440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fdc473074f7ad458cfc51a9525e118
+      internalID: 1301352640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4933bacfac3724ea1bdabc2a1f5ebe
+      internalID: -1084893721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee07984eec1dc548a627dbd55dd1c4d
+      internalID: -170524550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154b834829dfa84aacedbab5bdb67a2
+      internalID: 2090046507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9caa652253ae548b103c715c687113
+      internalID: -742949822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f054174348a4224baa7d64988d55c3e
+      internalID: 913937154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 3681
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb2a3039e1552a41bac58c9c7819856
+      internalID: 1202248196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c01fc8046b65bf4fb10a0e59be0530b
+      internalID: -371503146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f04d834e0178b945b98469190b25add
+      internalID: -1101382419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6b4841cfd0db46a69db8f3942f1c4
+      internalID: -119907794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a5904292b1764e9be0a1b79b1aa52
+      internalID: 80958192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4318a2c029aefdd4eabe0ea8ee05f1ac
+      internalID: 1759140158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cccfad2400e7f04fad0145fe51fec29
+      internalID: 816268043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68854110b7240194587e3de00144f780
+      internalID: -638242124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47661861d9ec3e147a187838692a9fe0
+      internalID: 47690892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 3272
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936a7e624fb1b27488fc6779946c8911
+      internalID: 2112956312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40da35902ba5afa459e290c0364be31b
+      internalID: -1761462404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a56b136969ed4045af3185b0a103b81
+      internalID: -821876233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c449c92ecfbc26e428fc2f922b675330
+      internalID: -739807736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e42261fedeb63409d45301d79f814d
+      internalID: -968546668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfca1ad3d49aa6f4fb35446ba481a7b8
+      internalID: -1098502080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b8027af78ad3b4b91773cb2608e276
+      internalID: -177009982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67e764e8cd6244ebeccf65a9322bca
+      internalID: 429121158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582c15fb77a8c84d897e92fc478a349
+      internalID: 146575907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2863
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562a428e74c6de446bc94121cb5a714d
+      internalID: -1805499772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758e60a1f13b9248983c020789f8a1c
+      internalID: 1237079228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03a938c03f24954b96e02233f6084b6
+      internalID: 145639163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6e2afded75d8344b574eb9499c3e8c
+      internalID: -2041045027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70446da962bab4c8cb82af9d33a9b5
+      internalID: 360429608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3240b3c5f7a7d4e96d174f01c6ee75
+      internalID: -1628745730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bcd682b3b5cb64bb314231775c2353
+      internalID: 1614924960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591476457ef1e5d43a9c90cc1f6aa757
+      internalID: 943214920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d759852b2a1c2284fb2de053b403b827
+      internalID: 637537099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2454
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75533e735eb050f489243ea74f86fb11
+      internalID: 1529030306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b9d08015b3bf9409a4544da1348c82
+      internalID: -31213818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3144c870946a07e4887bdcd39cfc121f
+      internalID: -1080379873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396eb068abc84864495bae4457d9edbd
+      internalID: 1361089580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca8ab9d0e2067246b0a2bb2af0e7319
+      internalID: 543455886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ef9b905f4c00842935e7894978f116
+      internalID: -1296500523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e682ae3a96d4fc64a876523b9d947a8e
+      internalID: -1747480836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a9aeb681413a46a3cb1137ba2b59c
+      internalID: 496200167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adbed64c75a31f48b349d558aa62b01
+      internalID: 112744580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2045
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fb5deaefffcac48a4bc7d05209db78
+      internalID: 1691364203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0ac9ec9aed621478a57c05d5d5f5ee
+      internalID: -544700039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8e91d791bafea48a2b610fabb53203
+      internalID: -211874525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac6a5c3b5bb4b4486a1c7f0cde4d3c
+      internalID: 613444480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f5e9868aa528646922bbfd6e05596b
+      internalID: -9958247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4240df1f40040e6418042267b925e20a
+      internalID: -931609146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47927de3addc45c4695916435c20e9ad
+      internalID: -1703954891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203c36f3b98f3b94d9105a1c643e0bc3
+      internalID: 1684215062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9443af422362be0408b3d5a82e9e22e5
+      internalID: -892848387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 1636
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9839a1d7b6db1418cfa4680e9e2977
+      internalID: -949904708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304cd76182648bf4e99e48d3cd15bac7
+      internalID: 1227924453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e27f68f0eaa76448445d4f116f47a6
+      internalID: 1727028393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d720d93ee4e632c4d86f0230217a13b7
+      internalID: -390615684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164b1f96ea937148880dfe4cef43fb4
+      internalID: 582699877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6485255658fe04cb6f4a162cc05b56
+      internalID: -102167636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19470f0c5a94ef546a9929f25b16f51e
+      internalID: -1075267309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbea8963744b704f843c54a400b6736
+      internalID: -1842534626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_61
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d355368412bcb3498e194bb8bc126d6
+      internalID: -993362341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_62
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 1227
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d58a3f05536d54e953e25b7cb5a8c6
+      internalID: 1522462226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a97f918af16f6468c127d30e43189c
+      internalID: 713508968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_64
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89dbbe6ef7be754f91b99100c45bd52
+      internalID: 1053960673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_65
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620463e5f2756114c8eb7a75894710e4
+      internalID: -718235179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_66
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee16efbafe56a442bd2faaaece4b2f1
+      internalID: 991530507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_67
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b3fd6acf13f58439533d59b6997411
+      internalID: 397226876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_68
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0225daa588d41ac47bddc56ebd90f84c
+      internalID: 1870085352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_69
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c10fc381fa08469a33ab4c8cc8a98
+      internalID: -1542804163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc48b86a5af7c2b4ebf74fe9aa775f57
+      internalID: -1645348550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 818
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d27ccc918176240bba6be2ef106c0c
+      internalID: -2092428010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0f413d9d96494a87167993b58ce31
+      internalID: -94092342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a337a98f03defdb4fb747dd5ab22b2c3
+      internalID: -2395109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc41a3b1d15cc84290482c5fb1e7504
+      internalID: 625060671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b36f952046586345b4840ec6a0e8ef4
+      internalID: -304414002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7ae1a9e4b16894db43dce5c0b5315f
+      internalID: 1700284753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275bbc2f3b70b3a4fbbc341217b4e936
+      internalID: -1270044381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_78
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfa66e26b28eb34aad5b501822fd912
+      internalID: -1938640769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_79
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180bfd7ef204734aa4d20e7706e8048
+      internalID: -1119494030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_80
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 409
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9c06d348e30054c93b11a600aaf7a2
+      internalID: -2062597328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb37f3c8213a554bb8a1a7652bee3d8
+      internalID: 174137706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_82
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f489fa1563c7448fceed7a2c3aba2
+      internalID: 1337298096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_83
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faceeb977168c374aa4a9e5e04026a8a
+      internalID: 1096822966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_84
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4424d8f7fa29bcc49aa10a26b773a648
+      internalID: 1266614981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_85
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98437ce6bb597b4282fc2e3412dad09
+      internalID: -331972898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_86
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5b9ce9ab970d4fa5eb0872b29f85c
+      internalID: 1953578024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_87
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785cef9181b14be4083f389cb05da4e2
+      internalID: -1463281744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_88
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca56185f8921f7141a6fcad4c862c5c1
+      internalID: 818655741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matraz_tileset_89
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 0
+        width: 469
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8d6bab9bb6e2b42adbd70a20551fcd
+      internalID: -1487007241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      matraz_tileset_33: 943214920
+      matraz_tileset_44: 1691364203
+      matraz_tileset_30: 360429608
+      matraz_tileset_78: -1938640769
+      matraz_tileset_81: 174137706
+      matraz_tileset_84: 1266614981
+      matraz_tileset_1: 338213440
+      matraz_tileset_18: -1761462404
+      matraz_tileset_41: -1747480836
+      matraz_tileset_82: 1337298096
+      matraz_tileset_66: 991530507
+      matraz_tileset_2: 1301352640
+      matraz_tileset_29: -2041045027
+      matraz_tileset_73: -2395109
+      matraz_tileset_79: -1119494030
+      matraz_tileset_10: -1101382419
+      matraz_tileset_13: 1759140158
+      matraz_tileset_31: -1628745730
+      matraz_tileset_68: 1870085352
+      matraz_tileset_9: -371503146
+      matraz_tileset_38: 1361089580
+      matraz_tileset_50: -1703954891
+      matraz_tileset_53: -949904708
+      matraz_tileset_87: -1463281744
+      matraz_tileset_34: 637537099
+      matraz_tileset_24: 429121158
+      matraz_tileset_6: -742949822
+      matraz_tileset_5: 2090046507
+      matraz_tileset_46: -211874525
+      matraz_tileset_28: 145639163
+      matraz_tileset_8: 1202248196
+      matraz_tileset_49: -931609146
+      matraz_tileset_71: -2092428010
+      matraz_tileset_89: -1487007241
+      matraz_tileset_37: -1080379873
+      matraz_tileset_42: 496200167
+      matraz_tileset_57: 582699877
+      matraz_tileset_45: -544700039
+      matraz_tileset_67: 397226876
+      matraz_tileset_55: 1727028393
+      matraz_tileset_22: -1098502080
+      matraz_tileset_32: 1614924960
+      matraz_tileset_52: -892848387
+      matraz_tileset_36: -31213818
+      matraz_tileset_77: -1270044381
+      matraz_tileset_40: -1296500523
+      matraz_tileset_21: -968546668
+      matraz_tileset_69: -1542804163
+      matraz_tileset_72: -94092342
+      matraz_tileset_16: 47690892
+      matraz_tileset_65: -718235179
+      matraz_tileset_75: -304414002
+      matraz_tileset_26: -1805499772
+      matraz_tileset_63: 713508968
+      matraz_tileset_14: 816268043
+      matraz_tileset_15: -638242124
+      matraz_tileset_35: 1529030306
+      matraz_tileset_62: 1522462226
+      matraz_tileset_19: -821876233
+      matraz_tileset_7: 913937154
+      matraz_tileset_23: -177009982
+      matraz_tileset_61: -993362341
+      matraz_tileset_43: 112744580
+      matraz_tileset_56: -390615684
+      matraz_tileset_27: 1237079228
+      matraz_tileset_3: -1084893721
+      matraz_tileset_60: -1842534626
+      matraz_tileset_86: 1953578024
+      matraz_tileset_51: 1684215062
+      matraz_tileset_85: -331972898
+      matraz_tileset_70: -1645348550
+      matraz_tileset_76: 1700284753
+      matraz_tileset_0: -15622763
+      matraz_tileset_17: 2112956312
+      matraz_tileset_11: -119907794
+      matraz_tileset_80: -2062597328
+      matraz_tileset_20: -739807736
+      matraz_tileset_12: 80958192
+      matraz_tileset_83: 1096822966
+      matraz_tileset_39: 543455886
+      matraz_tileset_74: 625060671
+      matraz_tileset_54: 1227924453
+      matraz_tileset_88: 818655741
+      matraz_tileset_64: 1053960673
+      matraz_tileset_47: 613444480
+      matraz_tileset_58: -102167636
+      matraz_tileset_25: 146575907
+      matraz_tileset_4: -170524550
+      matraz_tileset_48: -9958247
+      matraz_tileset_59: -1075267309
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

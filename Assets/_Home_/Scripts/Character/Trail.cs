@@ -10,7 +10,8 @@ public class Trail : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
         Vector3[] startingLines = { transform.position, transform.position };
-        line.SetPositions(startingLines);
+        if (line.positionCount < 3)
+            line.SetPositions(startingLines);
     }
     void Update()
     {

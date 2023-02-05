@@ -6,23 +6,28 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
 
-    public void LoadMainMenuScene() {
-        SceneManager.LoadScene(0);
-    }
-
-    public void LoadCreditScene() {
-        SceneManager.LoadScene(2);
-    }
-
-    public void LoadControlsScene() {
-        SceneManager.LoadScene(3);
-    }
-
-     public void LoadGameScene() {
+    public void LoadMainMenuScene()
+    {
         SceneManager.LoadScene(1);
     }
 
-    public void ExitGame() {
+    public void LoadCreditScene()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void LoadControlsScene()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void LoadGameScene()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void ExitGame()
+    {
         Application.Quit();
     }
 }
