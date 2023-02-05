@@ -6,7 +6,7 @@ using UnityEngine;
 public class Trail : MonoBehaviour
 {
     private LineRenderer line;
-    private void Start()
+    private void OnEnable()
     {
         line = GetComponent<LineRenderer>();
         Vector3[] startingLines = { transform.position, transform.position };

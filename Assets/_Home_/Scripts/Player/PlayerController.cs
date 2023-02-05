@@ -16,10 +16,13 @@ public class PlayerController : MonoBehaviour
             {
                 leftCharacter.portraitController.SetColor(Color.white);
                 leftCharacter.rb.velocity = Vector2.zero;
+                leftCharacter.isControlled = false;
                 leftPortraitController.currentCharacter = value;
             }
             _leftCharacter = value;
+            _leftCharacter.isControlled = true;
             _leftCharacter.portraitController.SetColor(leftColor);
+            _leftCharacter.NotBreedFor(.5f);
         }
 
         get { return _leftCharacter; }
@@ -32,10 +35,13 @@ public class PlayerController : MonoBehaviour
             {
                 rightCharacter.portraitController.SetColor(Color.white);
                 rightCharacter.rb.velocity = Vector2.zero;
+                rightCharacter.isControlled = false;
                 rightPortraitController.currentCharacter = value;
             }
             _rightCharacter = value;
             _rightCharacter.portraitController.SetColor(rightColor);
+            _rightCharacter.isControlled = true;
+            _rightCharacter.NotBreedFor(.5f);
         }
 
         get { return _rightCharacter; }
