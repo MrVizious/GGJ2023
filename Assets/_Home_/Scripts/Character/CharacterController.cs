@@ -124,7 +124,7 @@ public class CharacterController : MonoBehaviour
         return max;
     }
 
-    private void OnTriggerEnter2D(Collision2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         CharacterController otherCharacter = other.gameObject.GetComponent<CharacterController>();
         if (bredCharacterControllers == null) bredCharacterControllers = new List<CharacterController>();
