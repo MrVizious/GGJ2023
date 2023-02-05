@@ -22,14 +22,14 @@ public class PlayerController : MonoBehaviour
     public void MoveLeftCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
-        Debug.Log(playerNumber + " left: " + v);
+        //Debug.Log(playerNumber + " left: " + v);
         leftCharacter?.SetMoveVector(v);
     }
 
     public void MoveRightCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
-        Debug.Log(playerNumber + "right: " + v);
+        //Debug.Log(playerNumber + "right: " + v);
         rightCharacter?.SetMoveVector(v);
     }
 

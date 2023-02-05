@@ -21,6 +21,7 @@ public class CharacterController : MonoBehaviour
     private Vector2 latestMovementVector;
     private Rigidbody2D rb;
     private List<CharacterController> bredCharacterControllers;
+    public Renderer rendererComponent;
 
     public float lifePercentage
     {
@@ -28,6 +29,11 @@ public class CharacterController : MonoBehaviour
         {
             return lifeLeft / maxLifeLeft;
         }
+    }
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rendererComponent = GetComponent<Renderer>();
     }
     private void Start()
     {
@@ -51,10 +57,6 @@ public class CharacterController : MonoBehaviour
     private void Update()
     {
         SubstractLife();
-    }
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
     }
 
     public void SetMoveVector(Vector2 v)

@@ -432,7 +432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 575404120}
   - component: {fileID: 575404119}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: RightLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 1455917776}
   - component: {fileID: 1455917775}
   m_Layer: 0
-  m_Name: Square
+  m_Name: LeftLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1690,9 +1690,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character A
       objectReference: {fileID: 0}
+    - target: {fileID: 2807446344733549102, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5658686866766928302, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
       propertyPath: bloodPercentages.Array.data[0]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5868849856696036327, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d33c6291c55bec4ab49a23046663668, type: 3}
@@ -1922,7 +1930,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
