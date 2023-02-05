@@ -123,7 +123,6 @@ public class CharacterController : MonoBehaviour
         }
         if (GetHashCode() > otherCharacter.GetHashCode())
         {
-            bredCharacterControllers.Add(otherCharacter);
             Breed(otherCharacter);
         }
 
@@ -135,6 +134,7 @@ public class CharacterController : MonoBehaviour
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
         Debug.Log(screenCoords);
         if (screenCoords.y < 0) return;
+        bredCharacterControllers.Add(other);
         CharacterController newChild = Instantiate(gameObject,
                 newChildPosition,
                 Quaternion.identity).GetComponent<CharacterController>();
