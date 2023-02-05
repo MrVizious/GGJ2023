@@ -133,7 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 11451902}
   - component: {fileID: 11451901}
-  m_Layer: 0
+  - component: {fileID: 11451903}
+  m_Layer: 7
   m_Name: CameraPivot
   m_TagString: Camera
   m_Icon: {fileID: 0}
@@ -171,6 +172,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &11451903
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11451900}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &219407889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -664,6 +691,10 @@ MonoBehaviour:
   player2: {fileID: 1135882730}
   portraitCreators:
   - {fileID: 11400000, guid: 6803905ca64a3ca48af24576be67a7ba, type: 2}
+  - {fileID: 11400000, guid: 87ac00439bac9314ea0aced3c70ec7fc, type: 2}
+  - {fileID: 11400000, guid: 1dd2663e2d12089468127b2ce4da38a0, type: 2}
+  - {fileID: 11400000, guid: 1f6a6116c2d260645b25ef2937363141, type: 2}
+  currentAgeIndex: 0
 --- !u!4 &392787049
 Transform:
   m_ObjectHideFlags: 0
@@ -1131,7 +1162,7 @@ GameObject:
   - component: {fileID: 823452944}
   - component: {fileID: 823452943}
   - component: {fileID: 823452942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border > Victorian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,14 +1177,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823452941}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1258,7 +1289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823452941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.1, z: 0}
+  m_LocalPosition: {x: 0, y: -8, z: -10}
   m_LocalScale: {x: 27.723251, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1721,7 +1752,7 @@ GameObject:
   - component: {fileID: 1136710135}
   - component: {fileID: 1136710134}
   - component: {fileID: 1136710133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}

@@ -132,8 +132,8 @@ public class CharacterController : MonoBehaviour
     {
         Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
-        Debug.Log(screenCoords);
         if (screenCoords.y < 0) return;
+        Debug.Log("Added to bred");
         bredCharacterControllers.Add(other);
         CharacterController newChild = Instantiate(gameObject,
                 newChildPosition,

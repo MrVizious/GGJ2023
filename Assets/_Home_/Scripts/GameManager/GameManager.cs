@@ -9,15 +9,15 @@ public sealed class GameManager : Singleton<GameManager>
     public RuntimeSetCharacterController availableCharacters;
     public PlayerController player1, player2;
     [SerializeField] List<PortraitCreator> portraitCreators = new List<PortraitCreator>();
-    private int currentPortraitCreatorIndex = 0;
+    [SerializeField] private int currentAgeIndex = 0;
     public PortraitCreator portraitCreator
     {
-        get { return portraitCreators[currentPortraitCreatorIndex]; }
+        get { return portraitCreators[currentAgeIndex]; }
     }
 
     private void Start()
     {
-        currentPortraitCreatorIndex = 0;
+        currentAgeIndex = 0;
     }
 
     private void Update()
@@ -27,10 +27,11 @@ public sealed class GameManager : Singleton<GameManager>
 
     public void NextAge()
     {
-        currentPortraitCreatorIndex++;
-        if (currentPortraitCreatorIndex >= portraitCreators.Count)
+        Debug.Log("Next Age!");
+        currentAgeIndex++;
+        if (currentAgeIndex >= portraitCreators.Count)
         {
-            currentPortraitCreatorIndex = 0;
+            currentAgeIndex = 0;
         }
     }
 
