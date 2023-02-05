@@ -38,9 +38,12 @@ public class AudioController : Singleton<AudioController>
         MusicAudioSource.Play();
     }
 
-    private void PlayAmbientSound(){
-        if(Random.Range(0, 10.0f) < 7.0){
-            switch(Epoca){
+    public void PlayAmbientSound()
+    {
+        if (Random.Range(0, 10.0f) < 7.0)
+        {
+            switch (Epoca)
+            {
                 case 0:
                     AmbientAudioSource.PlayOneShot(AmbientSFXMedieval.GetRandomItem<AudioClip>());
                     break;

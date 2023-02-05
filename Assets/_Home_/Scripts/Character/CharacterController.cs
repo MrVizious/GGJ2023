@@ -99,7 +99,7 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    private float GetHighestBloodPercentage()
+    public float GetHighestBloodPercentage()
     {
         float max = -1;
         foreach (var percentage in bloodPercentages)
@@ -133,7 +133,8 @@ public class CharacterController : MonoBehaviour
         Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
         if (screenCoords.y < 0) return;
-        Debug.Log("Added to bred");
+        AudioController audio = FindObjectOfType<AudioController>();
+        audio.PlaySFX(audio.SoundsSFX[5]);
         bredCharacterControllers.Add(other);
         CharacterController newChild = Instantiate(gameObject,
                 newChildPosition,
@@ -169,6 +170,8 @@ public class CharacterController : MonoBehaviour
     private void OnDestroy()
     {
         onDestroy.Invoke();
+        AudioController audio = FindObjectOfType<AudioController>();
+        audio.PlaySFX(audio.SoundsSFX[0]);
         portraitController.SetToSepia();
         availableCharacters.Remove(this);
     }
