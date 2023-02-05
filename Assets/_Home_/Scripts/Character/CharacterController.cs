@@ -153,6 +153,9 @@ public class CharacterController : MonoBehaviour
         Vector2 newChildPosition = transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f;
         Vector2 screenCoords = Camera.main.WorldToScreenPoint(newChildPosition);
         if (screenCoords.y < 0) return false;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(newChildPosition, .3f);
+        if (hits.Length > 0) return false;
+
         AudioController audio = GameObject.FindObjectOfType<AudioController>();
         audio.PlaySFX(audio.SoundsSFX[5]);
         bredCharacterControllers.Add(other);
