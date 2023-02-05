@@ -27,20 +27,4 @@ public sealed class GameManager : Singleton<GameManager>
             currentPortraitCreatorIndex = 0;
         }
     }
-
-    private void Update()
-    {
-
-    }
-
-    private void DeleteUnseenCharacters()
-    {
-        foreach (CharacterController character in availableCharacters.Items)
-        {
-            if (!character.rendererComponent.isVisible)
-            {
-                Destroy(character);
-            }
-        }
-    }
 }

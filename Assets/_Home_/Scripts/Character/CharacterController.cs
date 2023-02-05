@@ -21,6 +21,7 @@ public class CharacterController : MonoBehaviour
     private Vector2 latestMovementVector;
     private Rigidbody2D rb;
     private List<CharacterController> bredCharacterControllers;
+    private int unseenFrames = 0;
     public Renderer rendererComponent;
 
     public float lifePercentage
@@ -33,7 +34,6 @@ public class CharacterController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        rendererComponent = GetComponent<Renderer>();
     }
     private void Start()
     {
@@ -57,6 +57,7 @@ public class CharacterController : MonoBehaviour
     private void Update()
     {
         SubstractLife();
+        DeleteIfUnseen();
     }
 
     public void SetMoveVector(Vector2 v)
@@ -130,7 +131,6 @@ public class CharacterController : MonoBehaviour
 
     public void Breed(CharacterController other)
     {
-        Debug.Log("Breeding", gameObject);
         CharacterController newChild = Instantiate(gameObject,
                 transform.position + (Vector3)Vector2.down * transform.lossyScale.y * 2.5f,
                 Quaternion.identity).GetComponent<CharacterController>();
@@ -145,6 +145,20 @@ public class CharacterController : MonoBehaviour
             childBloodPercentages[i] = (bloodPercentages[i] + otherBloodPercentages[i]) / 2f;
         }
         return childBloodPercentages;
+    }
+
+    private void DeleteIfUnseen()
+    {
+        if (!rendererComponent.isVisible)
+        {
+            unseenFrames++;
+            if (unseenFrames > 5)
+            {
+                Debug.Log("Destroying");
+                Destroy(this);
+            }
+        }
+        else unseenFrames = 0;
     }
 
     private void OnDestroy()

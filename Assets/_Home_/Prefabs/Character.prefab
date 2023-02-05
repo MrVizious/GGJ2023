@@ -95,7 +95,7 @@ MonoBehaviour:
   - 0
   maxSpeed: 5
   speed: 0
-  rendererComponent: {fileID: 0}
+  rendererComponent: {fileID: 2807446344733549102}
 --- !u!61 &135312417868296879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -179,6 +179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d58c7a2e88c850a4b87d2151dcad345a, type: 3}
+--- !u!212 &2807446344733549102 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7412205970931473031, guid: d58c7a2e88c850a4b87d2151dcad345a, type: 3}
+  m_PrefabInstance: {fileID: 4623929752240634025}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &3979248182814476792 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8580024417838379345, guid: d58c7a2e88c850a4b87d2151dcad345a, type: 3}

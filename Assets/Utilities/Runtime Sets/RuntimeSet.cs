@@ -11,12 +11,14 @@ namespace RuntimeSets
 
         public void Add(T thing)
         {
+            Debug.Log("Added");
             if (!Items.Contains(thing))
                 Items.Add(thing);
         }
 
         public void Remove(T thing)
         {
+            Debug.Log("Removed");
             if (Items.Contains(thing))
                 Items.Remove(thing);
         }
