@@ -8,48 +8,84 @@ public class PlayerController : MonoBehaviour
 {
     //TODO: Character class and its subsequent CharacterRuntimeSet SO class
     [SerializeField] private CharacterController leftCharacter, rightCharacter;
-    //public CharacterRuntimeSet availableCharacters;
+    public RuntimeSetCharacterController availableCharacters;
     public int playerNumber = 0;
+    private int availableCharacterIndex = 0;
 
-    [SerializeField]
-    Color leftColor, rightColor;
+    private void Start()
+    {
+        leftPortraitController.currentCharacter = leftCharacter;
+        rightPortraitController.currentCharacter = rightCharacter;
+    }
 
-    [SerializeField] private PortraitGameController portraitController;
+    [SerializeField] private PortraitUIController leftPortraitController, rightPortraitController;
     public void MoveLeftCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
-        //Debug.Log(playerNumber + ": " + v);
+        Debug.Log(playerNumber + " left: " + v);
         leftCharacter?.SetMoveVector(v);
     }
 
     public void MoveRightCharacter(InputAction.CallbackContext context)
     {
         Vector2 v = context.ReadValue<Vector2>();
-        Debug.Log(playerNumber + ": " + v);
+        Debug.Log(playerNumber + "right: " + v);
         rightCharacter?.SetMoveVector(v);
     }
 
     public void ChangeLeftCharacterForward(InputAction.CallbackContext context)
     {
         if (context.started)
-            Debug.Log("Changing left character forward");
+        {
+            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex + 1);
+            if (newCharacter == null) return;
+            if (leftCharacter != null) availableCharacters.Add(leftCharacter);
+            leftCharacter = newCharacter;
+            availableCharacterIndex = availableCharacters.IndexOf(leftCharacter);
+            availableCharacters.Remove(leftCharacter);
+            leftPortraitController.currentCharacter = leftCharacter;
+        }
     }
 
     public void ChangeLeftCharacterBackward(InputAction.CallbackContext context)
     {
         if (context.started)
-            Debug.Log("Changing left character backward");
+        {
+            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex - 1);
+            if (newCharacter == null) return;
+            if (leftCharacter != null) availableCharacters.Add(leftCharacter);
+            leftCharacter = newCharacter;
+            availableCharacterIndex = availableCharacters.IndexOf(leftCharacter);
+            availableCharacters.Remove(leftCharacter);
+            leftPortraitController.currentCharacter = leftCharacter;
+        }
     }
 
     public void ChangeRightCharacterForward(InputAction.CallbackContext context)
     {
         if (context.started)
-            Debug.Log("Changing right character forward");
+        {
+            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex + 1);
+            if (newCharacter == null) return;
+            if (rightCharacter != null) availableCharacters.Add(rightCharacter);
+            rightCharacter = newCharacter;
+            availableCharacterIndex = availableCharacters.IndexOf(rightCharacter);
+            availableCharacters.Remove(rightCharacter);
+            rightPortraitController.currentCharacter = rightCharacter;
+        }
     }
 
     public void ChangeRightCharacterBackward(InputAction.CallbackContext context)
     {
         if (context.started)
-            Debug.Log("Changing right character backward");
+        {
+            CharacterController newCharacter = availableCharacters.GetItemAt(availableCharacterIndex - 1);
+            if (newCharacter == null) return;
+            if (rightCharacter != null) availableCharacters.Add(rightCharacter);
+            rightCharacter = newCharacter;
+            availableCharacterIndex = availableCharacters.IndexOf(rightCharacter);
+            availableCharacters.Remove(rightCharacter);
+            rightPortraitController.currentCharacter = rightCharacter;
+        }
     }
 }

@@ -28,12 +28,21 @@ namespace RuntimeSets
 
         public T GetItemAt(int index)
         {
-            if (Items.Count > 0)
+            if (Items.Count <= 0)
             {
-                return Items[index % Items.Count];
+                Debug.LogError("There are no elements in the RuntimeSet", this);
+                return default(T);
             }
-            Debug.LogError("There are no elements in the RuntimeSet", this);
-            return default(T);
+            if (index < 0)
+            {
+                return Items[Items.Count - 1];
+            }
+            return Items[index % Items.Count];
+        }
+
+        public int IndexOf(T Item)
+        {
+            return Items.IndexOf(Item);
         }
     }
 }

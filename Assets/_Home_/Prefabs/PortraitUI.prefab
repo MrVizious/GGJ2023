@@ -1848,6 +1848,11 @@ MonoBehaviour:
   complementRenderer: {fileID: 5336009632153264406}
   frameRenderer: {fileID: 2556160018852385731}
   coloredBorderRenderer: {fileID: 5011357275181078360}
+  lifeBar: {fileID: 847468508611289383}
+  bloodBarA: {fileID: 977592575495503154}
+  bloodBarB: {fileID: 2308251107483068104}
+  bloodBarC: {fileID: 7553306225337136945}
+  bloodBarD: {fileID: 5100051468772543479}
 --- !u!1 &7385673070454259619
 GameObject:
   m_ObjectHideFlags: 0

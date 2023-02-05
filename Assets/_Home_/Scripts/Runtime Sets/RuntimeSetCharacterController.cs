@@ -10,6 +10,21 @@ namespace RuntimeSets
         {
             Clear();
         }
+
+
+        public new CharacterController GetItemAt(int index)
+        {
+            if (Items.Count <= 0)
+            {
+                Debug.LogError("There are no elements in the RuntimeSet", this);
+                return null;
+            }
+            if (index < 0)
+            {
+                return Items[Items.Count - 1];
+            }
+            return Items[index % Items.Count];
+        }
     }
 
 }
