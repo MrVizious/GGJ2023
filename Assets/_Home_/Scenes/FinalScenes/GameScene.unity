@@ -1207,7 +1207,7 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 5bea5d29-580f-4fed-95fa-c46854bbdc97
     m_ActionName: Player/Change backward left
-  m_NeverAutoSwitchControlSchemes: 0
+  m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Gamepad
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
@@ -2864,7 +2864,7 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 5bea5d29-580f-4fed-95fa-c46854bbdc97
     m_ActionName: Player/Change backward left[/XInputControllerWindows/leftShoulder]
-  m_NeverAutoSwitchControlSchemes: 0
+  m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Gamepad
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
